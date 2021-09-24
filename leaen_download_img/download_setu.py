@@ -67,11 +67,3 @@ if __name__ == '__main__':
 
 
 
-
-
-
-'''
-  <li><a href="(链接后半)" title="(标题)" target="_blank"><span>(日期)</span>
-  卡亚欧偷乱精同美
-
-'''
