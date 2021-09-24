@@ -61,17 +61,6 @@ if __name__ == '__main__':
 
 
 """
-src="https://1js.edcsw.com/20/assets/images/header/user.png"
-http://lab.scrapyd.cn/archives/57.html
-http://lab.scrapyd.cn/archives/55.html
-http://lab.scrapyd.cn/archives/29.html
-http://lab.scrapyd.cn/archives/28.html
-http://lab.scrapyd.cn/archives/27.html
-<p><img src="http://lab.scrapyd.cn/usr/uploads/2018/02/3875934880.jpg" alt="1.jpg" title="1.jpg"></p>
-<p><img src="http://lab.scrapyd.cn/usr/uploads/2018/02/2269613152.jpg" alt="2.jpg" title="2.jpg"></p>
-<p><img src="http://lab.scrapyd.cn/usr/uploads/2018/02/2360992798.jpg" alt="3.jpg" title="3.jpg"></p>
-<p><img src="http://lab.scrapyd.cn/usr/uploads/2018/02/2239103416.jpg" alt="4.jpg" title="4.jpg"></p>
-<p><img src="http://lab.scrapyd.cn/usr/uploads/2018/02/4145232684.jpg" alt="5.jpg" title="5.jpg"></p> 
 
 # 请求下载地址，以流式的。打开要下载的文件位置。
 with requests.get('http://down.360safe.com/setup.exe', stream=True) as r, open('setup.exe', 'wb') as file:
@@ -111,10 +100,7 @@ if time.time() - start_time > 1:
     else:
         print(plan, '%', speed / (1024 ** 4), 'TB/s')
     # 重置以下载大小
-    temp_size = content_size
-————————————————
-版权声明：本文为CSDN博主「dqy74568392」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/dqy74568392/article/details/96479370
+
 """
 '''
  url = 'https://download.jetbrains.com/idea/ideaIU-2018.2.1.exe'
@@ -129,3 +115,6 @@ if time.time() - start_time > 1:
                 now_jd = (data_count / content_size) * 100
                 print("\r 文件下载进度：%d%%(%d/%d) - %s" % (now_jd, data_count, content_size, url), end=" ")
 '''
+
+
+
